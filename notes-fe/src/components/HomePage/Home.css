@@ -1,0 +1,63 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .homenotes {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .add {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .NoteList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .Notes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .Content {
+    flex: 1;
+  }
+  
+  .delicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .nonotes {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }

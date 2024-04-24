@@ -1,0 +1,54 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .NavTitle {
+    text-decoration: none;
+  }
+  
+  .Titletext {
+    font-size: 1.5rem;
+  }
+  
+  .NavRouters {
+    display: flex;
+  }
+  
+  .routes {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .NavBtns {
+    display: flex;
+  }
+  
+  .CreateNote,
+  .DelAccountBtn {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .CreateNote {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .DelAccountBtn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .CreateNote:hover,
+  .DelAccountBtn:hover {
+    opacity: 0.8;
+  }
