@@ -16,9 +16,10 @@
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-top: 40px;
     margin-bottom: 20px;
   }
   
@@ -33,8 +34,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: #f2f2f2;
+    width: 120%;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);    margin-left:-40px;
     padding: 10px 20px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -42,6 +43,7 @@
   
   .Content {
     flex: 1;
+    font-size: 1.5rem;
   }
   
   .delicon {

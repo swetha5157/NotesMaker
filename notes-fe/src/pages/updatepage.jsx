@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar/NavBar'
 function UpdatePage() {
   return (
     <div>
-      <NavBar/>
+     
       <UpdateNote/>
     </div>
   )

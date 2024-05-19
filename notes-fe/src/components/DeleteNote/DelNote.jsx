@@ -2,6 +2,7 @@
 import axios from "axios"
 import React,{useState} from 'react'
 import {useNavigate, useParams} from 'react-router-dom'
+import './DelNote.css'
 function DelNote() {
     const [delNote,setDelNote]=useState("");
     const {id}=useParams()

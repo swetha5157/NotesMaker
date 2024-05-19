@@ -6,7 +6,7 @@ import CreateNote from '../components/CreateNote/Note';
 function CreatePage() {
   return (
     <div>
-      <NavBar/>
+    
       <CreateNote/>
     </div>
   )

@@ -5,7 +5,7 @@ import DelNote from '../components/DeleteNote/DelNote';
 function DeletePage() {
   return (
     <div>
-    <NavBar/>
+   
     <DelNote/>
     </div>
   )

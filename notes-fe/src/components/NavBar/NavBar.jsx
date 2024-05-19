@@ -50,7 +50,7 @@ function NavBar() {
             </div>
             <div className="NavRouters">
                 <Link className="NavRouters routes" to="/dashboard">
-                    <span className="routes">Dashboard</span>
+                    <span className="routes"></span>
                 </Link>
             </div>
             <div className="NavBtns">
